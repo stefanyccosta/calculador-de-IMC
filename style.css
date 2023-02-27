@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image:url(https://img.freepik.com/vetores-gratis/fundo-de-frutas-e-legumes_23-2148509499.jpg?w=740&t=st=1667852208~exp=1667852808~hmac=a34d660447382f17dec6b89ae9bdf404e36d608cd3f8000c260226cb792eb733);
+    background-size: cover;
+    background-position: 30% 45%;  
+}
+
+h1{
+    font-size:35px;
+    text-align: center;
+    margin-bottom:50px;
+    margin-top: 30px;
+    color: rgb(12, 31, 114);
+}
+.calculador{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+    gap: 100px;  
+    
+}
+.calculador p{
+    padding: 5px;
+    font-size:25px;
+    color:rgb(63, 54, 54);
+    font-weight: bold;
+}
+.calculador .input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 2px black;
+    box-shadow: 0 4px 8px rgba(70, 8, 8, 0.3);
+}
+.btn-calculadora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 200px;
+    height: 40px;
+    margin-top: 50px;
+    font-size: 25px;
+    border-radius: 20px;
+    background: rgb(243, 120, 38);
+    color: rgb(63, 54, 54);
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(70, 8, 8, 0.3);
+    border: none;
+}
+.tabela-IMC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+   
+.tbl{
+    box-shadow: 0 6px 12px rgba(70, 8, 8, 0.3);
+    width:700px;
+    height:210px;
+    border: 1px solid black;
+    text-align: center;
+    background: rgb(253, 192, 135);
+}
+.tbl th{
+    border: 1px solid black;
+}
+.tbl td{
+    border: 1px solid black;
+}
+.resultado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    font-size: 25px;
+    color:  rgb(12, 31, 114);
+    font-weight: bold;
+}
